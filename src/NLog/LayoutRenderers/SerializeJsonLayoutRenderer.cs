@@ -1,12 +1,14 @@
-﻿using System;
-using System.IO;
-using System.Linq;
-using System.Runtime.Serialization.Json;
-using System.Text;
-using NLog.Config;
+﻿#if !SILVERLIGHT
 
 namespace NLog.LayoutRenderers
 {
+    using System;
+    using System.IO;
+    using System.Linq;
+    using System.Runtime.Serialization.Json;
+    using System.Text;
+    using NLog.Config;
+
     /// <summary>
     /// The serialized object (message) in JSON
     /// </summary>
@@ -47,3 +49,4 @@ namespace NLog.LayoutRenderers
         }
     }
 }
+#endif
