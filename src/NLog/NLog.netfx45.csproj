@@ -237,6 +237,7 @@
     <Compile Include="LayoutRenderers\ProcessTimeLayoutRenderer.cs" />
     <Compile Include="LayoutRenderers\QueryPerformanceCounterLayoutRenderer.cs" />
     <Compile Include="LayoutRenderers\RegistryLayoutRenderer.cs" />
+    <Compile Include="LayoutRenderers\SerializeXmlLayoutRenderer.cs" />
     <Compile Include="LayoutRenderers\ShortDateLayoutRenderer.cs" />
     <Compile Include="LayoutRenderers\SilverlightApplicationInfoLayoutRenderer.cs" />
     <Compile Include="LayoutRenderers\SilverlightApplicationInfoOption.cs" />
